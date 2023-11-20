@@ -1,0 +1,99 @@
+.nav img{
+
+    height: 50px;
+    width: 50px;
+    
+}
+
+
+.logos img{
+    height: 100px;
+    width: 100px;
+
+}
+
+body{
+    background-color: rgb(135, 0, 237);
+}
+.allconteiner{
+  margin-top: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+   background: rgba(212, 4, 255, 0.33);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.6px);
+    -webkit-backdrop-filter: blur(3.6px);
+    
+
+}
+
+footer{
+    align-items: center;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.link{
+    background-color: brown;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 100px;
+    width: 100px;
+    margin: 5vh auto;
+    
+
+}
+
+@media screen and (max-widht: 500px){
+
+
+
+
+link{
+    width: 90%;
+    font-size: 16px;
+    margin-top: 10px;
+    margin: 5vh auto;
+}
+
+
+.allconteiner{
+    width: 90%;
+    margin: 5vh auto;
+    
+}
+
+link + .link{
+    margin-top: 15px;
+}
+
+
+}
+
+
+.principal{
+    align-items: center;
+    text-align: center;
+    align-content: center;
+  
+}
+
+
+.link a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+   
+}
+
+
+.perfil img{
+    border-radius: 100px;
+}
+
+
+
+
